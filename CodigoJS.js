@@ -108,7 +108,6 @@ window.onload = function() {
             scrollTop: posicionDeSeccion - 80
         }, 500);
 
-        $(".menudesplegable").slideUp(300);
     }
 
 
