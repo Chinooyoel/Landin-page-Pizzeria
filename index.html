@@ -1,0 +1,396 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Pizzeria Don Antonio </title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="pizzeria, empanaderia, empanadas, delivery,pizzas, ramos">
+    <meta name="description" content="empanadas y pizzas en ramos mejia delivery" <link rel="stylesheet" type="text/css" href="C:\Users\Chinoo\Desktop\Autodidacta\Programacion\Programacion web\Proyecto Don antonio\hoja.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="hoja.css" rel="stylesheet">
+    <link href="parte3.css" rel="stylesheet">
+    <link href="hojaresponsive.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="CodigoJS.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Contenido principal-->
+    <div class="botonIcono" id="btmScroll">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <div id="principal">
+        <!--MENU LATERAL-->
+        <header id="inicio">
+            <a id="logo"><img src="pizzeriaLogo.jpg" /></a>
+            <div><i class="material-icons" id="botonmenu">menu</i></div>
+            <nav class="menudesplegable">
+                <ol>
+                    <li><a name="#parte1">Productos</a></li>
+                    <li><a name="#parte2">Sucursales</a></li>
+                    <li><a name="#parte3">Eventos</a></li>
+                    <li><a name="#parte4">Franquicias</a></li>
+                    <li><a name="#parte5">Nosotros</a></li>
+                    <li><a name="#parte6">Contacto</a></li>
+                    <li class="boton"><a name="#parte6">Hace tu pedido"</a></li>
+                </ol>
+            </nav>
+        </header>
+        <!--Fin del inicio-->
+
+
+
+        <!--Introduccion-->
+        <section id="introduccion">
+            <div id="slider">
+                <section>
+                    <img src="promo.png" alt="foto de empanadas" />
+                    <div class="textoPromo">
+                        <h2>Promo mediodia I</h2>
+                        <p>-3 Empanadas<br />-1 Bebida 600cc</p>
+                        <span class="precio">A solo<br/><span>$130</span></span>
+                    </div>
+                </section>
+                <section>
+                    <img src="tarta.jpg" alt="foto de tarta" />
+                    <div class="textoPromo">
+                        <h2>Promo mediodia II</h2>
+                        <p>-1 Tarta Individual<br />-1 Bebida 600cc</p>
+                        <span class="precio">A solo<br/><span>$140</span></span>
+                    </div>
+                </section>
+                <section>
+                    <img src="pizza Muzzarella.jpg" alt="foto de pizza" />
+                    <div class="textoPromo">
+                        <h2>Promo Mix</h2>
+                        <p>-6 Empanadas<br />-1 Pizza grande de Muzzarela</p>
+                        <span class="precio">A solo<br/><span>$415</span></span>
+                    </div>
+                </section>
+                <section>
+                    <img src="docena.jpg" alt="foto de empanadas" />
+                    <div class="textoPromo">
+                        <h2>Tu docena de Empandas trae 14!</h2>
+                        <p>-12 empanadas<br />-2 empanadas de regalo</p>
+                        <span class="precio">A solo<br/><span>$420</span></span>
+                    </div>
+                </section>
+                <section>
+                    <img src="fugazza.jpg" alt="foto de empanadas" />
+                    <div class="textoPromo">
+                        <h2>Promo 3x2</h2>
+                        <p>-2 Pizzas Grandes de Muzarella<br />-1 Fugazza de Regalo</p>
+                        <span class="precio">A solo<br/><span>$480</span></span>
+                    </div>
+                </section>
+                <div class="botonIcono" id="btmIzq">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="botonIcono" id="btmDer">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+        <!--Fin de introduccion-->
+        <!--PARTE 1-->
+        <section id="parte1">
+            <h2>-Gustos de empanadas-</h2>
+            <table>
+                <tr>
+                    <th>CD:carne dulce</th>
+                    <th>CC:carne a cuchillo con papa y huevo</th>
+                    <th>CP:carne picante</th>
+                    <th>CS:carne suave</th>
+                </tr>
+                <tr>
+                    <th>JQ:jamon y queso</th>
+                    <th>JT:jamon, queso y tomate</th>
+                    <th>P:pollo</th>
+                    <th>PV:pollo al verdeo</th>
+                </tr>
+                <tr>
+                    <th>PS:pollo con salsa blanca</th>
+                    <th>CA:capresse(queso, tomate y albahaca)</th>
+                    <th>QC:queso y cebolla</th>
+                    <th>CR:carbonara</th>
+                </tr>
+                <tr>
+                    <th>PC:panceta, queso y huevo</th>
+                    <th>RJ:roquefort y jamon</th>
+                    <th>E:espinaca y salsa blanca</th>
+                    <th>RA:roquefort, apio y nuez</th>
+                </tr>
+                <tr>
+                    <th>CM:choclo, queso y salsa blanca</th>
+                    <th>4Q:cuatro quesos(roquefort, sardo, muzzarela y provolone)</th>
+                    <th>CO:cantimpalo</th>
+                    <th>MC:muzzarela y calabaza</th>
+                </tr>
+                <tr>
+                    <th>CH:panceta y chedar</th>
+                </tr>
+                <tr>
+                    <th>PI:pollo integral</th>
+                    <th>VI:verdura integral</th>
+                    <th>CI:calabaza integral</th>
+                </tr>
+            </table>
+
+            <h2>-Sabores de pizzas-</h2>
+            <h3>(Grandes e individuales)</h3>
+
+            <table>
+                <tr>
+                    <th>Muzzarella</th>
+                    <th>Doble muzzarela</th>
+                    <th>Napolitana</th>
+                    <th>Napolitana con jamon</th>
+                </tr>
+                <tr>
+                    <th>Napolitana con huevo y jamon</th>
+                    <th>Jamon y morron</th>
+                    <th>Jamon y anana</th>
+                    <th>Jamon y provolone</th>
+                </tr>
+                <tr>
+                    <th>Palmitos especiales</th>
+                    <th>Muzzarela y palmitos</th>
+                    <th>Muzzarela y huevo</th>
+                    <th>Fugazza</th>
+                </tr>
+                <tr>
+                    <th>Fugazzeta</th>
+                    <th>Fugazzeta con jamon</th>
+                    <th>Panceta</th>
+                    <th>Panceta y huevo</th>
+                </tr>
+                <tr>
+                    <th>Panceta y rucula</th>
+                    <th>Rucula y sardo</th>
+                    <th>Jamon crudo y rucula</th>
+                    <th>Jamon crudo y muzzarela</th>
+                </tr>
+                <tr>
+                    <th>Jamon crudo y anana</th>
+                    <th>Provolone</th>
+                    <th>Pizza cancha</th>
+                    <th>Muzza con papas pai</th>
+                </tr>
+                <tr>
+                    <th>Muzza con anchoas</th>
+                    <th>Anchoas con salsa de tomate</th>
+                    <th>Muzza con salchicas</th>
+                    <th>Choclo</th>
+                </tr>
+                <tr>
+                    <th>Calabresa</th>
+                </tr>
+            </table>
+
+
+            <h2>-Pastelitos-</h2>
+
+            <table>
+                <tr>
+                    <th>B:batata</th>
+                    <th>DL:dulce de leche</th>
+                    <th>M:membrillo</th>
+                </tr>
+            </table>
+
+            <h2>-Tartas-</h2>
+
+            <table>
+                <tr>
+                    <th>Verdura</th>
+                    <th>Jamon y queso</th>
+                </tr>
+            </table>
+
+
+        </section>
+        <!--Fin de la parte 1-->
+        <!--Parte 2-->
+        <section id="parte2">
+            <h2>Locales</h2>
+            <div id="sucursales">
+                <p>
+                    <strong>Ramos I</strong><br /> Calle 1111 - Ramos mejia <br />
+                    <span class="telefono">4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Ramos II</strong><br /> Calle 1111 - Ramos Mejia<br />
+                    <span class="telefono">4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Villa luzuriaga</strong><br /> Calle 1111 - Villa Luzuriaga <br />
+                    <span class="telefono">4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Lomas del mirador</strong><br /> Calle 1111 - Lomas del Mirador<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Haedo chico</strong><br /> Calle 1111 - Haedo<br />
+                    <span class="telefono">4444.4444</span>
+                </p>
+                <p>
+                    <strong>Caseros</strong><br /> Calle 1111 - Caseros<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Localidad</strong><br /> Calle 1111 - Ciudad<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Localidad</strong><br /> Calle 1111 - Ciudad<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Localidad</strong><br /> Calle 1111 - Ciudad<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+                <p>
+                    <strong>Localidad</strong><br /> Calle 1111 - Ciudad<br />
+                    <span class="telefono">4444.4444 / 4444.4444</span><span class="whatsap">Whatsap: 11.4444.4444</span>
+                </p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13128.362368370681!2d-58.563406!3d-34.652415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb4bf6f396f299ac!2sEmpanadas+Don+antonio+Ramos+2!5e0!3m2!1ses-419!2sar!4v1546478368843" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+
+        </section>
+        <!--Fin de la parte 2-->
+        <!--Parte 3-->
+        <section id="parte3">
+            <div id="textoEventos">
+                <h2>Eventos</h2>
+                <h3>Disfruta nuestros servicios de Pizza Party y Foodtruck en todos tus eventos</h3>
+                <p>Contactanos a info@pizzeria.com</p>
+                <a href="#parte6" class="boton">Envianos tus contacto!</a>
+            </div>
+        </section>
+        <!--Fin de la parte 3-->
+        <!--Parte 4-->
+        <section id="parte4">
+            <div class="lateral">
+                <h2>Franquicias</h2>
+                <p>Queres tener tu franquicia Pizzeria?</p>
+                <img src="franquicia.jpg" />
+            </div>
+            <div class="lateral2">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="iconolocal.png" alt="icono de locales" class="icono" />
+                            <h2>19</h2>
+                            <p><strong>Locales</strong><br />Contamos con 20 locales en Gran Buenos Aires y Capital Federal.</p>
+                        </td>
+                        <td>
+                            <img src="iconosabores.png" alt="icono de sabores" class="icono" />
+                            <h2>60</h2>
+                            <p><strong>Sabores</strong><br />(Pizzas y empanadas)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="iconocliente.png" alt="icono de clientes" class="icono" />
+                            <h2>+110.000</h2>
+                            <p><strong>Mas de 110mil clientes</strong></p>
+                        </td>
+                        <td>
+                            <img src="iconoinversion.png" alt="icono de inversion" class="icono" />
+                            <h2>$860.000</h2>
+                            <p><strong>Inversion inicial aproximada</strong></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!--Fin de la parte 4-->
+        <!--Parte 5-->
+        <section id="parte5">
+            <div class="lateral">
+                <h2>El sabor de lo rico</h2>
+                <p>La empresa Pizzeria fue fundada en el año 2005 en zona oeste.</p>
+                <p>Nos dedicamos a la elaboración y comercialización de pizzas y empanadas, manteniendo siempre el sabor de lo casero.</p>
+                <p>Todos nuestros productos son elaborados en las instalaciones propias de la empresa con materia prima de alta calidad y cumpliendo con todas las normas de seguridad e higiene necesarias.</p>
+                <p>En el año 2013, comenzamos con el formato de FRANQUICIAS y ampliamos la fábrica para continuar creciendo cada día.</p>
+                <p>Actualmente contamos con 20 franquicias y 3 locales propios distribuidos en diferentes locali dades de zona norte, sur, oeste y Capital Federal.</p>
+                <p>- Somos Pizzeria y trabajamos con el único objetivo de satisfacer a nuestros clientes, ofreciéndoles la mejor atención y la excelencia de nuestros productos.</p>
+                <p>"Seguimos creciendo, apostando y mejorando juntos"</p>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wAMuhQL1ZCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+        <!--Fin de la parte 5-->
+        <!--Parte 6-->
+        <section id="parte6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.3063184218586!2d-58.57157595767353!3d-34.65401434216116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc41befe8936abed!2sEmpanadas+Don+Antonio+Ramos+1!5e0!3m2!1ses-419!2sar!4v1547055883461"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div>
+                <h2>Contactanos</h2>
+                <p>Direccion: Calle 1111, Ramos Mejia, Buenos aires<br />Telefono:(+54)011 4444-4444<br/>Email:info@pizzeria.com</p>
+                <form>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+                    <input type="text" name="telefono" placeholder="Ingrese su telefono" />
+                    <br>
+                    <input type="email" name="email" placeholder="Ingrese su email" required/>
+                    <br />
+                    <input type="radio" name="tema" value="franquicia" />Franquicia
+                    <input type="radio" name="tema" value="pedidos" />Pedidos por mayor
+                    <input type="radio" name="tema" value="trabajo" />Trabajo
+                    <input type="radio" name="tema" value="otros" />Otros
+
+                    <br>
+                    <textarea name="Descripcion" placeholder="Descripcion" required></textarea>
+                    <br>
+                    <input type="submit" name="Enviar" />
+
+                </form>
+            </div>
+    </div>
+    <!--Fin de la parte 6-->
+    </section>
+    <footer>
+        <div>
+            <div>
+                <a id="logo"><img src="pizzeriaLogo.jpg" /></a>
+            </div>
+            <div>
+                <nav class="menudesplegable">
+                    <ul>
+                        <li><a name="#parte1">Productos</a></li>
+                        <li><a name="#parte2">Sucursales</a></li>
+                        <li><a name="#parte3">Eventos</a></li>
+                        <li><a name="#parte4">Franquicias</a></li>
+                        <li><a name="#parte5">Nosotros</a></li>
+                        <li><a name="#parte6">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section>
+            <div>
+                <p>@Copyright 2018 Pizzeras - Todos los derechos reservados</p>
+            </div>
+            <div>
+                <span>Trabaja con nosotros</span>
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script>
+        //PAGINA fadeIN
+        $("body").hide().fadeIn(3000);
+    </script>
+
+
+</body>
+
+</html>
