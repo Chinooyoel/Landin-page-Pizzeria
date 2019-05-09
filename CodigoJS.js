@@ -9,6 +9,7 @@ window.onload = function() {
     })
 
     $(window).scroll(function() {
+
         if ($("html, body").scrollTop() > 0) {
             $("#btmScroll").slideDown(200);
             $(cabezera).stop().animate({
@@ -20,6 +21,12 @@ window.onload = function() {
                 height: "120px"
             }, 400);
         }
+        //error corregido que no se cierra el menu cuando queremos seguir scrolleando
+        //----------------------
+        if ($("#botonmenu").css("display") == "inline-block") {
+            cerrarMenu();
+        }
+        //-----------------------
     })
 
 
@@ -32,14 +39,18 @@ window.onload = function() {
             });
             $(".menudesplegable").slideDown(300);
         } else {
-            $(this).css({
-                "background-color": "white",
-                "color": "#282828"
-            });
-            $(".menudesplegable").slideUp(300);
+            cerrarMenu();
         }
     })
 
+    //Funcion cerrarMenuDesplegable
+    function cerrarMenu() {
+        $("#botonmenu").css({
+            "background-color": "white",
+            "color": "#282828"
+        });
+        $(".menudesplegable").slideUp(300);
+    }
     //SLIDER
     var slider = $("#slider");
     var btmIzq = $("#btmIzq");

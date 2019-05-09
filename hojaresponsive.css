@@ -1,68 +1,61 @@
             /*ANCHO MAXIMO 1000px*/
-            @media screen and (max-width: 1000px){
+            
+            @media screen and (max-width: 1000px) {
                 /*INICIO*/
                 #inicio {
                     justify-content: space-between;
                 }
-
                 /*MENU DESPLEGABLE*/
-                #inicio .menudesplegable{
+                #inicio .menudesplegable {
                     display: none;
-                    position:absolute;
-                    width: 100%;
-                    overflow:hidden;
                     position: absolute;
-                    top:80px;
+                    width: 100%;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 80px;
                     border-top: 1px solid black;
                 }
                 #inicio ol {
-                    padding-left:0px;
+                    padding-left: 0px;
                 }
                 #inicio li {
-                    float:none;
-                    background-color:white;
+                    float: none;
+                    background-color: white;
                     border-bottom: 1px solid black;
                 }
-                #botonmenu{
-                    display:inline-block;
-                    color:#666;
-                    font-size:80px;
-                    cursor:pointer;
-                    position:relative;
+                #botonmenu {
+                    display: inline-block;
+                    color: #666;
+                    font-size: 80px;
+                    cursor: pointer;
+                    position: relative;
                 }
-
-                #botonmenu:hover #inicio.menudesplegable{
-                    display:block;
+                #botonmenu:hover #inicio.menudesplegable {
+                    display: block;
                 }
-
                 /*INTRODUCCION*/
-                #introduccion .textoPromo{
-                    left:50%;
-                    top:50%;
-                    transform: translate(-50%,-50%);
+                #introduccion .textoPromo {
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
                 }
-                
                 /*PARTE 1*/
-                #parte1 th{
-                    display:block;
+                #parte1 th {
+                    display: block;
                 }
-
-
                 /*PARTE 2*/
-                #parte2 #sucursales{
+                #parte2 #sucursales {
                     flex-basis: 100%;
-                    margin-bottom:20px;
+                    margin-bottom: 20px;
                 }
                 #parte2 iframe {
                     width: 100%;
                     padding-left: 0px;
                 }
-
                 /*PARTE 3*/
-                
                 #parte3 {
                     justify-content: center;
-                    padding:10px;
+                    padding: 10px;
                 }
                 #parte3 #textoEventos {
                     width: 100%;
@@ -70,21 +63,19 @@
                     text-align: center;
                 }
                 #parte3 h3 {
-                    font-size:3.0em;
+                    font-size: 3.0em;
                 }
-
                 /*PARTE 4*/
                 #parte4 {
                     flex-direction: column;
-                    padding:10px;
+                    padding: 10px;
                 }
-                
                 /*PARTE 5*/
                 #parte5 {
                     flex-direction: column;
                     text-align: center;
                 }
-                .lateral{
+                .lateral {
                     width: 100%;
                     padding-bottom: 40px;
                 }
@@ -92,51 +83,49 @@
                     width: 80%;
                     margin-left: 0px;
                 }
-
                 /*PARTE 6*/
                 #parte6 {
                     flex-direction: column;
-                    padding:10px;
+                    padding: 10px;
                 }
-                #parte6 iframe{
-                    display:none;
+                #parte6 iframe {
+                    display: none;
                 }
-                #parte6 > div{
+                #parte6>div {
                     width: 80%;
                 }
-
                 /*PARTE2, PARTE5, PARTE1*/
-                #parte2, 
-                #parte5, 
+                #parte2,
+                #parte5,
                 #parte1 {
-                    padding:10px;
+                    padding: 10px;
                 }
             }
-
             /*ANCHO MAXIMO 500PX*/
-            @media screen and (max-width: 500px){
-                h2{
+            
+            @media screen and (max-width: 500px) {
+                h2 {
+                    font-size: 3.0em;
+                    text-shadow: 1px 1px 5px black;
+                }
+                #introduccion .textoPromo h2 {
                     font-size: 3.0em;
                 }
-                #introduccion .textoPromo h2{
-                   font-size: 3.0em;
-                }
-                #introduccion .textoPromo > p {
+                #introduccion .textoPromo>p {
                     font-size: 1.4em;
                 }
-                #parte4 td{
-                    display:block;
+                #parte4 td {
+                    display: block;
                 }
                 #parte3 #textoEventos p {
                     font-size: 1.2em;
                 }
-                #parte5 iframe{
+                #parte5 iframe {
                     min-height: 200px;
                 }
-                #parte6 div > p {
+                #parte6 div>p {
                     font-size: 0.8em;
                 }
-
                 #parte6 input[type=text],
                 #parte6 input[type=email],
                 #parte6 textarea {

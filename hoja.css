@@ -297,7 +297,7 @@ h2 {
 /*Parte 1 productos*/
 
 #parte1 {
-    background: url("maderanegra.png") no-repeat;
+    background: url("./imgs/maderanegra.png") no-repeat;
     background-size: 100% 100%;
     font-family: 'Ink Free';
     padding: 50px;
@@ -368,44 +368,6 @@ h2 {
     overflow: auto;
 }
 
-
-/*Parte 3 eventos*/
-
-
-/*
-#parte3 {
-    background-image: url("party.png");
-    font-family:'Ink Free';
-    display:flex;
-    justify-content: end;
-    align-items: center;
-    min-height: 100vh;
-    padding:50px;
-    filter: brightness(0.3);
-    text-shadow: 5px 5px 5px black;
-}
-    #parte3 #textoEventos {
-        width: 50%;
-        margin-right: 200px;
-        text-align:end;
-    }
-
-    #parte3 h2 {
-        font-weight: bold;
-    }
-
-    #parte3 h3 {
-        font-size: 5.3em;
-    }
-
-    #parte3 p{
-        font-size:1.9em;
-    }
-
-    #parte3 a{
-        font-family:Arial;
-        display:inline-block;
-    }
 
 /*Clase boton*/
 
@@ -478,13 +440,13 @@ a.boton:hover {
 /*class telefono y whatsap*/
 
 p .telefono {
-    background: url("telefono.JPg") no-repeat top left;
+    background: url("./imgs/telefono.JPg") no-repeat top left;
     background-size: 20px;
     padding-left: 25px;
 }
 
 .whatsap {
-    background: url("whatsap.png") no-repeat top left;
+    background: url("./imgs/whatsap.png") no-repeat top left;
     background-size: 20px;
     padding-left: 25px;
     margin-left: 10px;
@@ -556,7 +518,7 @@ p .telefono {
 #parte6 h2 {
     display: inline;
     text-align: initial;
-    background: url(iconomensaje.png) no-repeat;
+    background: url("./imgs/iconomensaje.png") no-repeat;
     background-size: 80px 100%;
     padding-left: 90px;
     font-size: 2.0rem;
